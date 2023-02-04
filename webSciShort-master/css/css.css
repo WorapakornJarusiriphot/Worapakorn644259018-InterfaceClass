@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Athiti&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:wght@300&display=swap');
+
+
+/* Color Theme Swatches in Hex */
+.green-website-1-hex { color: #222220; }
+.green-website-2-hex { color: #2E2E2C; }
+.green-website-3-hex { color: #78C82B; }
+.green-website-4-hex { color: #FFFFFF; }
+.green-website-5-hex { color: #E3E4DE; }
+
+.orange-theme-1{color:#FFA900 ;}
+.orange-theme-2{color:#FF4C00 ;}
+.orange-theme-3{color:#FF7B00 ;}
+.orange-theme-4{color:#52313B ;}
+.orange-theme-5{color:#FFC800 ;}
+
+.bg-or-1{background-color: #FFA900;}
+.bg-or-2{background-color: #FF4C00;}
+.bg-or-3{background-color: #FF7B00;}
+.bg-or-4{background-color: #52313B;}
+.bg-or-5{background-color: #FFC800;}
+
+.bg-or-conts{background-color: #53CF15;}
+
+.bg-or-gradient{
+  background: rgb(255,76,0);
+  background: linear-gradient(130deg, rgba(255,76,0,1) 0%, rgba(255,200,0,1) 100%);
+}
+
+.bg-header-img{
+  background-image: url('../images/header-bg-img.png');
+  background-blend-mode:screen;
+  background-position: center top;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+body{background-color: #f2f2f2;}
+
+.bg-green{
+  background-color: #ffa900;
+}
+
+.bg-orange{background-color: #FFA900; }
+/* .card-body{background-color: #f2f2f2;} */
+.card-link{
+  text-decoration: none;
+  color: #2E2E2C;
+}
+
+a.card-link :hover{
+  /* background-color: #E0FFEF; */
+  color: #FF4C00;
+}
+.card-header a, .course-body a{text-decoration: none;background: none;}
+.card-header a:hover, .card-header a:visited,.card-header a:active{text-decoration: underline;background: none;}
+
+.course-note{font-size: 0.9em;}
+.course-body p , ul.course-content li{
+  /* font-family: 'Athiti', sans-serif; */
+  font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.card-rela{position: relative;}
+
+a.contact-me{text-decoration: none;}
+a.contact-me:hover{color: #fff;}
+
+.contact-course img{width: 100px;height: 100px;}
+
+.course-body h5{color:#52313B;}
